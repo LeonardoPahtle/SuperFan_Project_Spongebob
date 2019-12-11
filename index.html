@@ -1,0 +1,77 @@
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="images/Spongebob.jpg" rel="icon" type="image/x-icon" />
+		<title>SuperFan_Project</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+
+	<body>
+	<!-- Top -->
+		<div class="top orange">
+			<div class="title">
+				<img src="images/Title.png" class="img pointer" onclick="resetPage()" id="title"/>
+			</div>
+		</div>
+		
+		<!-- Middle -->
+		<div class="middle">
+			<div class="big-image">
+				<img src="images/Characters.png" class="img pointer" onclick="music()" id="everyone"/>
+			</div>
+		</div>
+		<!-- Bottom -->
+		<div class="bottom">
+			<div class="inbottom">
+				<div class="sections">
+					<div class="box light-blue">
+						<img src="images/spongebob.png" class="img pointer" onclick="appear()" id="spongebob"/>
+					</div>
+					<div class="box aqua-blue">
+						<img src="images/gary.png" class="img pointer hide" onclick="sound()" id="gary"/>
+					</div>
+				</div>
+				<div class="sections">
+					<div class="box aqua-blue">
+						<img src="images/mr.krabs.gif" class="img pointer" onclick="appear2()" id="mr.krabs"/>
+					</div>
+					<div class="box light-blue">
+						<img src="images/pearl.png" class="img pointer hide" onclick="sound2()" id="pearl"/>
+					</div>
+				</div>
+			</div>
+			<div class="inbottom">
+				<div class="sections">
+					<div class="box light-blue">
+						<img src="images/squidward.png" class="img pointer" onclick="appear3()" id="squidward"/>
+					</div>
+					<div class="box aqua-blue">
+						<img src="images/squilliam.png" class="img pointer hide" onclick="sound3()" id="squilliam"/>
+					</div>
+				</div>
+				<div class="sections">
+					<div class="box aqua-blue">
+						<img src="images/plankton.png" class="img pointer" onclick="appear4()" id="plankton"/>
+					</div>
+					<div class="box light-blue">
+						<img src="images/karen.png" class="img pointer hide" onclick="sound4()" id="karen"/>
+					</div>
+				</div>
+			</div>
+		</div>
+			<! -- Sounds For Images -->
+			<audio src="Sounds/SpongeBob_ Closing_Theme_Song.mp3" type="audio/mp3" id="Theme_Song"></audio>
+			<audio src="Sounds/Spongebob.mp3" type="audio/mp3" id="Spongebob Sound"></audio>
+			<audio src="Sounds/Gary.mp3" type="audio/mp3" id="Gary Sound"></audio>
+			<audio src="Sounds/Mr. Krabs.mp3" type="audio/mp3" id="Mr. Krabs Sound"></audio>
+			<audio src="Sounds/Pearl.mp3" type="audio/mp3" id="Pearl Sound"></audio>
+			<audio src="Sounds/Squidward.mp3" type="audio/mp3" id="Squidward Sound"></audio>
+			<audio src="Sounds/Squilliam.mp3" type="audio/mp3" id="Squilliam Sound"></audio>
+			<audio src="Sounds/Plankton.mp3" type="audio/mp3" id="Plankton Sound"></audio>
+			<audio src="Sounds/Karen.mp3" type="audio/mp3" id="Karen Sound"></audio>
+		<script src="script.js"></script>
+	</body>
+
+</html>

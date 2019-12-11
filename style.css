@@ -1,0 +1,128 @@
+body{
+	height: 100%;
+	width: 100%;
+	display: block;
+}
+
+/* Top */
+.top{
+	height: 10%;
+	width: 100%;
+	display: flex;
+}
+
+.title{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* Middle */
+.middle{
+	height: 40%;
+	width: 100%;
+	display: flex;
+}
+
+.big-image{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url('images/background.jpg');
+}
+
+/* Bottom */
+.bottom{
+	height: 50%;
+	width: 100%;
+	display: flex;
+}
+
+.inbottom{
+	height: 100%;
+	width: 50%;
+	display: flex;
+}
+
+.sections{
+	height: 100%;
+	width: 50%;
+	display: block;
+}
+
+.box{
+	height: 50%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	float: left;
+}
+
+/* Images */
+.img{
+	max-height: 75%;
+	max-width: 75%;
+	opacity: 75%;
+	-webkit-filter: drop-shadow(8px 8px 10px gray);
+	filter: drop-shadow(8px 8px 10px gray);
+}
+
+img:active{
+	-webkit-filter: drop-shadow(4px 4px 5px gray);
+	filter: drop-shadow(4px 4px 5px gray);
+	transform: scale(0.95, 0.95);
+}
+
+img:hover{
+	opacity: 100%;
+}
+
+.pointer{
+	cursor: pointer;
+}
+
+.hide{
+	display: none;
+}
+
+.show{
+	display: flex;
+}
+
+/* Colors */
+.green {background-color: #008D24;}
+.light-blue {background-color: #0B69C0;}
+.red {background-color: #CA1B22;}
+.orange {background-color: #EA6626;}
+.aqua-blue {background-color: #26B9C8}
+
+/* Responsive Code */
+@media only screen and (max-width: 1000px) {
+	.bottom{
+		display: block;
+	}
+	
+	.inbottom{
+		width: 100%;
+	}
+	
+	.sections{
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 700px) {	
+	.inbottom{
+		display: block;
+		height: 100%;
+	}
+	
+	.sections{
+		height: 100%;
+	}
+}
