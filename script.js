@@ -38,8 +38,6 @@ function showHide(Im){
 	Im.classList.remove("hide");
 }
 function appear() {
-	g.classList.add("show")
-	g.classList.remove("hide")
 	imagea = 1
 	console.log(imagea)
 	ss.play();
@@ -47,8 +45,6 @@ function appear() {
 }
 
 function appear2() {
-	p.classList.add("show")
-	p.classList.remove("hide")
 	imageb = 1
 	console.log(imageb)
 	ms.play();
@@ -56,8 +52,6 @@ function appear2() {
 }
 
 function appear3() {
-	l.classList.add("show")
-	l.classList.remove("hide")
 	imagec = 1
 	console.log(imagec)
 	sq.play();
@@ -65,8 +59,6 @@ function appear3() {
 }
 
 function appear4() {
-	k.classList.add("show")
-	k.classList.remove("hide")
 	imaged = 1
 	console.log(imaged)
 	ps.play();
