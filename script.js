@@ -33,9 +33,9 @@ function resetPage(){
 } 
 
 // Images
-function showHide(Im){
-	Im.classList.add("show");
-	Im.classList.remove("hide");
+function showHide(g){
+	g.classList.add("show");
+	g.classList.remove("hide");
 }
 function appear() {
 	imagea = 1
