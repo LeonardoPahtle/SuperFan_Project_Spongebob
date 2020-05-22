@@ -37,6 +37,22 @@ function showHide(g){
 	g.classList.add("show");
 	g.classList.remove("hide");
 }
+
+function showHide(p){
+	p.classList.add("show");
+	p.classList.remove("hide");
+}
+
+function showHide(l){
+	l.classList.add("show");
+	l.classList.remove("hide");
+}
+
+function showHide(k){
+	k.classList.add("show");
+	k.classList.remove("hide");
+}
+
 function appear() {
 	imagea = 1
 	console.log(imagea)
